@@ -1,0 +1,1216 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7/"
+     xml:base="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#IsCityOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#IsCityOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isSubjectOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Subject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isFromCountry"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isFromCountry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isFromCountry">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isSubjectOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isSubjectOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Subject"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Boy_Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Boy_Student">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Boy_with_same_initial"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Lucas"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oliver"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#City">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Cambridge"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Edinburgh"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#London"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oxford"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#IsCityOf"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Country">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Australia"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Canada"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#South_Africa"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#USA"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_Student">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Carol"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Elisa"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_with_same_initial"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Carol"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Elisa"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Lucas"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oliver"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#City"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Subject"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isFromCountry"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Country"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Subject">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Architecture"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#History"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Law"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Medicine"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isSubjectOf"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Architecture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Subject"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isSubjectOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isFromCountry"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Australia"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isSubjectOf"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Boy_Student"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Australia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Australia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Country"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Architecture"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Boy_Student"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Boy_with_same_initial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Boy_with_same_initial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Boy_Student"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:oneOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Lucas"/>
+                                </owl:oneOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#London"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:oneOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oliver"/>
+                                </owl:oneOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oxford"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:oneOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Lucas"/>
+                                        </owl:oneOf>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#London"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:oneOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oliver"/>
+                                        </owl:oneOf>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oxford"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:complementOf>
+            </owl:Class>
+        </rdf:type>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_with_same_initial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Cambridge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Cambridge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#City"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#IsCityOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Medicine"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#IsCityOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_Student"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Canada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Canada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Country"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oxford"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#History"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oxford"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#History"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:complementOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Law"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Carol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Carol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_Student"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Edinburgh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Edinburgh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Elisa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Elisa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_Student"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_with_same_initial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_with_same_initial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_Student"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:oneOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Carol"/>
+                                </owl:oneOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Cambridge"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:oneOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Elisa"/>
+                                </owl:oneOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Edinburgh"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:oneOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Carol"/>
+                                        </owl:oneOf>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Cambridge"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:oneOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Elisa"/>
+                                        </owl:oneOf>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Edinburgh"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:complementOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#History -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#History">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Law -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Law">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#London -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#London">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Lucas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Lucas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Boy_Student"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Lucas"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#History"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Lucas"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isFromCountry"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#USA"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Medicine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Medicine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Subject"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isSubjectOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Cambridge"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isSubjectOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_Student"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oliver -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oliver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Boy_Student"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Law"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isFromCountry"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#USA"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Law"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isFromCountry"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#USA"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:complementOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oliver"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isFromCountry"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#South_Africa"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oxford -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oxford">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#South_Africa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#South_Africa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Country"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Edinburgh"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Law"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Edinburgh"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Law"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:complementOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#USA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Country"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Edinburgh"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Medicine"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Edinburgh"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#isCountryOf"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasSubject"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Medicine"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:complementOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#City"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Country"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Student"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Subject"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Architecture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Australia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Boy_with_same_initial"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Cambridge"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Canada"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Carol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Edinburgh"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Elisa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#History"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Law"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#London"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Medicine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oxford"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#South_Africa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#USA"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Architecture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Australia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Cambridge"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Canada"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Carol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Edinburgh"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Elisa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#History"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Law"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#London"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Lucas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Medicine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oliver"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oxford"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#South_Africa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#USA"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Architecture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Australia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Cambridge"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Canada"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Edinburgh"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_with_same_initial"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#History"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Law"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#London"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Lucas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Medicine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oliver"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oxford"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#South_Africa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#USA"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl:var#x">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#c">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Boy_Student"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oliver"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#London"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oliver"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oxford"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Boy_Student"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Lucas"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Oxford"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Lucas"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#London"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_Student"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Elisa"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Cambridge"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Elisa"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Edinburgh"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Girl_Student"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Carol"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Edinburgh"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#hasCity"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Carol"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/asturtevant/ontologies/2026/8/untitled-ontology-7#Cambridge"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
