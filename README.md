@@ -1,5 +1,5 @@
 # logic.puzzle.ontologies
-RDF/OWL ontologies of logic puzzles
+RDF/OWL ontologies of logic puzzles.
 These ontologies model logic puzzles found at https://www.brainzilla.com. Importing the ontologies into Protege and running the Hermit reasoner will result in the puzzle being solved. 
 
 Easy:
